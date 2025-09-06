@@ -103,6 +103,3 @@ Passwords are automatically hashed using bcrypt 🔐
 Tokens expire in 1 hour ⏱
 
 💡 Enjoy testing your API! 🚀
-
-yaml
-Copy code
