@@ -42,8 +42,8 @@ POST /api/auth/register
 Body (JSON):
 
 {
-  "username": "john_doe",
-  "email": "john@example.com",
+  "username": "faeiz",
+  "email": "faeizhamdard48.com",
   "password": "123456"
 }
 Response:
@@ -58,7 +58,7 @@ POST /api/auth/login
 Body (JSON):
 
 {
-  "email": "john@example.com",
+  "email": "faeizhamdrd48@gmail.com,
   "password": "123456"
 }
 Response:
@@ -80,8 +80,8 @@ http://localhost:5000/api/auth/register
 Set Body to raw JSON and add the fields:
 
 {
-  "username": "john_doe",
-  "email": "john@example.com",
+  "username": "faeiz",
+  "email": "faeizhamdard48@gmail.com",
   "password": "123456"
 }
 Hit Send ✅
