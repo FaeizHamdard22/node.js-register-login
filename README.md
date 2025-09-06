@@ -16,25 +16,22 @@ Welcome to this simple **Auth API** built with Node.js, Express, MongoDB, Bcrypt
 ## 🚀 Installation
 
 1. Clone the repository
-```bash
+
 git clone https://github.com/FaeizHamdard22/node.js-register-login.git
 cd node.js-register-login
 Install dependencies
 
-bash
-Copy code
+
 npm install
 Create a .env file in the root:
 
-ini
-Copy code
+
 MONGO_URI="mongodb://localhost:27017/your-db-name"
 PORT=5000
 JWT_SECRET="your_secret_key"
 Run the server
 
-bash
-Copy code
+
 node app.js
 Server will start on http://localhost:5000 🎉
 
@@ -44,8 +41,6 @@ POST /api/auth/register
 
 Body (JSON):
 
-json
-Copy code
 {
   "username": "john_doe",
   "email": "john@example.com",
@@ -53,8 +48,7 @@ Copy code
 }
 Response:
 
-json
-Copy code
+
 {
   "message": "Successfully registered"
 }
@@ -63,16 +57,12 @@ POST /api/auth/login
 
 Body (JSON):
 
-json
-Copy code
 {
   "email": "john@example.com",
   "password": "123456"
 }
 Response:
 
-json
-Copy code
 {
   "message": "Login successful",
   "token": "JWT_TOKEN_HERE"
@@ -86,13 +76,9 @@ Create a new POST request
 
 Set the URL:
 
-bash
-Copy code
 http://localhost:5000/api/auth/register
 Set Body to raw JSON and add the fields:
 
-json
-Copy code
 {
   "username": "john_doe",
   "email": "john@example.com",
@@ -102,8 +88,6 @@ Hit Send ✅
 
 You should see:
 
-json
-Copy code
 {
   "message": "Successfully registered"
 }
