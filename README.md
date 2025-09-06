@@ -17,8 +17,8 @@ Welcome to this simple **Auth API** built with Node.js, Express, MongoDB, Bcrypt
 
 1. Clone the repository
 ```bash
-git clone <your-repo-url>
-cd <your-project-folder>
+git clone https://github.com/FaeizHamdard22/node.js-register-login.git
+cd node.js-register-login
 Install dependencies
 
 bash
